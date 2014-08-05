@@ -1,0 +1,5 @@
+python-lunaport-worker (0.0.1) stable; urgency=low
+
+  * Initial packaging
+
+ -- Gregory Komissarov <gregory.komissarov@gmail.com>  Sun, 07 Jul 2013 12:58:26 +0400

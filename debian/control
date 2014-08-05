@@ -1,0 +1,29 @@
+Source: python-lunaport-worker
+Section: python
+Priority: optional
+Maintainer: Gregory Komissarov <gregory.komissarov@gmail.com>
+Build-Depends: debhelper (>=7),
+         python (>= 2.7.1-0ubuntu2),
+         python (<< 2.8),
+Standards-Version: 3.8.3
+
+Package: python-lunaport-worker
+Architecture: amd64
+Depends: python (>= 2.7.1-0ubuntu2),
+         python (<< 2.8),
+         python-requests (>= 2.0.0-1),
+         python-redis-2.7.5 (>= 2.7.5),
+         python-celery (>= 3.0.15),
+         python-raven (>=3.4.1),
+         python-yaml (= 3.10-2),
+         msgpack-python (>= 0.1.10-1),
+         python-numpy (>= 1:1.6.1),
+         python-scipy (>= 0.9.0),
+         python-pandas (>= 0.13.0-11),
+         supervisor (=3.0a8-1.1),
+         python-xmpp (>=0.4.1),
+         python-dns (>=2.3.6),
+         python-lunaport-ext-graypy (>=0.2.9-1),
+         python-lunaport-client (>=1.0.6),
+Conflicts: python-redis
+Description: Lunaport Worker @see https://github.domain/napalm/lunaport_worker
